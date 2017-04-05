@@ -1,2 +1,1 @@
-# ilghin
-сайт онтология
+University task (2nd lab work / Artificial Intelligence Systems).

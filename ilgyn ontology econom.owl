@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#"
+     xml:base="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika">
+        <rdfs:comment>Производственная Экономика</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#Командная -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#Командная">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#Экономика"/>
+        <rdfs:comment>способ управления экономической системой, хозяйством страны, основанный на высоком уровне централизации функций руководства экономикой, применении директивных методов управления, сосредоточении основных видов ресурсов производства</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#Смешанная -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#Смешанная">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#Экономика"/>
+        <rdfs:comment>это рыночная система, основанная на частной собственности и свободном предпринимательстве, регулируемая государством. Данный вид экономики включает как частную и корпоративную, так и общественную либо государственную собственность на средства производства.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#Традиционная -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#Традиционная">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#Экономика"/>
+        <rdfs:comment>такая экономическая система, в которой традиции и обычаи определяют практику использования ограниченных ресурсов. Она является самой древней.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#Экономика -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#Экономика">
+        <rdfs:comment>Совокупность производственных отношений, соответствующих данной ступени развития производительных сил общества, господствующий способ производства в обществе.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#государственная -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#государственная">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#Смешанная"/>
+        <rdfs:comment>все виды экономических ресурсов, факторов производства, денежных средств, находящиеся в государственной собственности, в распоряжении и ведении государственных органов власти.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#государственная_собственность -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#государственная_собственность">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#Командная"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#корпоративная -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#корпоративная">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#Смешанная"/>
+        <rdfs:comment>государство активно контролирует и направляет развитие экономической сферы общества внеэкономическими методами – прямое регулирование цен, перераспределение капвложений, вертикальные профсоюзы, обязательная доля государства в доле акционерного капитала.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#натуральное_хозайство -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#натуральное_хозайство">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#Традиционная"/>
+        <rdfs:comment>самодостаточный тип (натуральное хозяйство противоположно обмену и торговле) хозяйствования, который направлен только на удовлетворение собственных потребностей (не на продажу). Всё необходимое производится внутри хозяйственной единицы, при этом не возникает потребность в рынке. Сам для себя</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#общая_собственность -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#общая_собственность">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#Традиционная"/>
+        <rdfs:comment>собственность нескольких лиц на одно и то же имущество. В общей собственности может находиться, как неделимая вещь, так и делимая вещь, а также совокупность делимых и неделимых вещей, составляющих единое целое. Имущество может находиться в общей собственности с определением доли каждого (долевая собственность) или без определения таких долей (совместная собственность)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#общественная -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#общественная">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#Смешанная"/>
+        <rdfs:comment>различные организации, которых объединяет то, что, во-первых, – они ведут хозяйственную (экономическую) деятельность, во-вторых, – полученную прибыль (вместо того чтобы накапливать или разделять между акционерами) расходуют на общественные цели, либо на нужды своих членов или сообществ, в которых они работают. Таким образом, они являются организациями не для прибыли – not for profit.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#органические_ресурсы -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#органические_ресурсы">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#Традиционная"/>
+        <rdfs:comment>компоненты природы, используемые человеком. Компоненты, которые используются человеком в своих нуждах.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#охота_и_собирательство -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#охота_и_собирательство">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#натуральное_хозайство"/>
+        <rdfs:comment>хозяйственно-культурный тип, характерный для народов, которые находятся на раннем уровне социально-экономического развития.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#принцип_свободного_предпринимательства -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#принцип_свободного_предпринимательства">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#рыночная"/>
+        <rdfs:comment>Предпринимательство осуществляется на основе:
+
+свободного выбора предпринимателем видов предпринимательской деятельности;
+
+самостоятельного формирования предпринимателем программы деятельности, выбора поставщиков и потребителей продукции, которая производится, привлечение материально-технических, финансовых и других видов ресурсов, использование которых не ограниченно законом, установление цен на продукцию и услуги согласно закону</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#рыночная -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#рыночная">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#Экономика"/>
+        <rdfs:comment>основанная на принципах свободного предпринимательства, многообразия форм собственности на средства производства, рыночного ценообразования, договорных отношений между хозяйствующими субъектами, ограниченного вмешательства государства в хозяйственную деятельность субъектов.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#фермерство -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#фермерство">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#натуральное_хозайство"/>
+        <rdfs:comment>Крестьянское (фермерское) хозяйство — это объединение граждан, которые совместно владеют имуществом и осуществляют производственную или другую хозяйственную деятельность. После государственной регистрации крестьянско-фермерского хозяйства, его Глава является индивидуальным предпринимателем — фермером. Имущество фермерского хозяйства принадлежит его членам на праве совместной собственности.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#частная -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#частная">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/агдамлыбаласы/ontologies/2017/proizv.ekonomika#Смешанная"/>
+        <rdfs:comment>часть экономики страны, не находящаяся под контролем государства. Частный сектор образуют домохозяйства и фирмы, принадлежащие частному капиталу.</rdfs:comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
